@@ -1,0 +1,82 @@
+h1, .product-data, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1, h2 {
+    font-weight: bolder;
+    color: rgb(78, 154, 78);
+}
+
+h2{
+    font-size: 45px;
+}
+
+hr{
+    font-weight: bold;
+    color:green ;
+}
+
+.card {
+    box-shadow: 20px 12px 4px rgba(164, 206, 149, 0.7);
+    border-color: rgba(164, 206, 149, 0.5);
+    border-radius: 25px;
+}
+
+.formProducts {
+    background-color: rgba(164, 206, 149, 0.9);
+    border-radius: 25px;
+}
+
+.product-data {
+    font-weight: bold;
+    color: white;
+
+}
+
+.green-btn {
+    border-color: green;
+    color: green;
+}
+
+.green-btn:hover {
+    border-color: rgba(0, 128, 0, 0.8);
+    background-color: rgba(0, 128, 0, 0.8);
+    /* transition: background-color 0.9s ease; */
+    color: white;
+    /* transition: color 0.9s ease; */
+}
+
+#error-message {
+    transition: opacity 0.9s ease;
+    border-radius: 8px;
+    width: 280px;
+    background-color: rgb(220, 53, 69, 0.6);
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(164, 206, 149, 0.7);
+}
+
+p, .form-check-input, .form-check-label{
+    font-size: 25px;
+}
+
+p, .form-check-label{
+    color: green;
+}
+
+.search-bar{
+    border-color: rgba(164, 206, 149, 0.8);
+    border-radius: 25px;
+    border: solid 1.5px rgba(164, 206, 149, 0.8);
+    margin: auto;
+}
+
+.search-bar:focus {
+    border: 1px solid green;
+    box-shadow: 15px 9px 4px rgba(164, 206, 149, 0.5);
+  }
+
+
