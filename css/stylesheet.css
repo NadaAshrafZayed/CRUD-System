@@ -80,3 +80,16 @@ p, .form-check-label{
   }
 
 
+
+  /* To make this part responsive */
+  @media (max-width: 576px) {
+    p{
+        font-size: 15px;
+    }
+    .m-5 {
+        margin: 2rem;
+    }
+    .form-check-label, .form-check-input {
+        font-size: 1rem; /* Adjust the size as needed */
+    }
+}
