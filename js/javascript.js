@@ -66,9 +66,9 @@ function addNewProduct() {
 ///////////////////////////////////////  Clear Form  ///////////////////////////////////////
 function clearForm() {
     productName.value = "";
-    productPrice.value = " ";
-    productCategory.value = " ";
-    productDescription.value = " ";
+    productPrice.value = "";
+    productCategory.value = "";
+    productDescription.value = "";
 
     document.getElementById('formbtn').innerHTML = "Add";
 }
